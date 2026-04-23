@@ -6,30 +6,6 @@
 
 A step-by-step tutorial on implementing the **"Show, Attend and Tell"** image captioning model using PyTorch. This project reproduces the neural image caption generation model with visual attention, as proposed by Xu et al. (ICML 2015)[web:19].
 
-> 🔹 Part of the **[Deep Tutorials for PyTorch](https://github.com/sgrvinod/Deep-Tutorials-for-PyTorch)** series.
-> Also check out the companion tutorials: [Super-Resolution](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution) and [Machine Translation](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Machine-Translation).
-
----
-
-## 📋 Table of Contents
-
-- [Objective](#objective)
-- [Model Architecture](#model-architecture)
-- [Dataset](#dataset)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Quick Start](#quick-start)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [Inference (Generate Captions)](#inference)
-- [Results](#results)
-- [How It Works](#how-it-works)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [References](#references)
-
----
-
 ## 🎯 Objective
 
 Build a deep learning model that can generate a natural language caption for any input image. The model learns **where to look** — as it generates each word, you can visualize its "gaze" shifting across different regions of the image, thanks to its **attention mechanism**.
